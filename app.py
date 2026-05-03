@@ -22,7 +22,7 @@ st.title("💎 Diamond Price Predictor")
 # Row index input
 row_index = st.number_input(f"Enter a diamond row index (0 to {len(X)-1}):", step=1, format="%d")
 
-# Prediction
+
 if 0 <= row_index < len(X):
     st.subheader("🔍 Selected Diamond Features")
     selected_row = X.iloc[[int(row_index)]]
