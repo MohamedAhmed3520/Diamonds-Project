@@ -19,7 +19,6 @@ preprocessor = joblib.load('preprocessor.pkl')
 
 st.title("💎 Diamond Price Predictor")
 
-# Row index input
 row_index = st.number_input(f"Enter a diamond row index (0 to {len(X)-1}):", step=1, format="%d")
 
 
